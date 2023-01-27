@@ -1,0 +1,30 @@
+Warning: Undefined array key "user_id" in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 268
+
+Warning: Cannot modify header information - headers already sent by (output started at /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:268) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 282
+
+Warning: Cannot modify header information - headers already sent by (output started at /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:268) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 284
+
+Warning: Cannot modify header information - headers already sent by (output started at /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:268) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 286
+
+
+
+
+Notice: session_start(): ps_files_cleanup_dir: opendir(/tmp/.priv) failed: Permission denied (13) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 264
+
+Warning: session_start(): Session cache limiter cannot be sent after headers have already been sent (output started at /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:264) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 264
+
+Warning: session_destroy(): Trying to destroy uninitialized session in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 279
+
+Warning: Cannot modify header information - headers already sent by (output started at /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:264) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 282
+
+Warning: Cannot modify header information - headers already sent by (output started at /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:264) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 284
+
+Warning: Cannot modify header information - headers already sent by (output started at /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:264) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 286
+
+
+
+
+
+unset($_SESSION['user_id']);
+unset($_SESSION['user_name']);
+unset($_SESSION['user_level']);
