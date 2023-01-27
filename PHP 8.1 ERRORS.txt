@@ -1,0 +1,122 @@
+Fatal error: Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:144 Stack trace: #0 /homepages/13/d448254758/htdocs/vitalconcern11/MyRequests/prayerrequest/form.html.php(179): filter('test') #1 {main} thrown in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 144
+
+
+
+
+Deprecated: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /homepages/13/d448254758/htdocs/vitalconcern11/admin.php on line 16
+
+Warning: Undefined variable $post in /homepages/13/d448254758/htdocs/vitalconcern11/admin.php on line 27
+
+Warning: Trying to access array offset on value of type null in /homepages/13/d448254758/htdocs/vitalconcern11/admin.php on line 27
+
+Warning: Undefined array key "doUnban" in /homepages/13/d448254758/htdocs/vitalconcern11/admin.php on line 44
+
+Warning: Undefined array key "doDelete" in /homepages/13/d448254758/htdocs/vitalconcern11/admin.php on line 62
+
+Warning: Undefined array key "doApprove" in /homepages/13/d448254758/htdocs/vitalconcern11/admin.php on line 87
+Vital Concern Prayer Website	AdminEdit || Admin CP || All Requests || Quick List || Prayer List || Post || Edit || Settings
+Announcements || Help Requests || Logout
+
+
+Administration: Edit User Information
+Search 
+
+[Type email or user name]
+
+ Pending users  Recently registered  Banned users
+
+[You can leave search blank if you use above options]
+
+
+
+Warning: Undefined array key "doSearch" in /homepages/13/d448254758/htdocs/vitalconcern11/admin.php on line 256
+ 
+Warning: Undefined array key "doSubmit" in /homepages/13/d448254758/htdocs/vitalconcern11/admin.php on line 413
+Administration: Create New User
+ 	
+User ID 
+ (Type the username)
+
+Email 
+
+First Name 
+
+Last Name 
+
+Congregation
+Warning: Undefined variable $dd in /homepages/13/d448254758/htdocs/vitalconcern11/admin.php on line 587
+
+
+
+
+
+above is control panel below is settings
+
+Warning: Undefined array key "doUpdate" in /homepages/13/d448254758/htdocs/vitalconcern11/mysettings.php on line 27
+
+Warning: Undefined array key "doSave" in /homepages/13/d448254758/htdocs/vitalconcern11/mysettings.php on line 76
+
+
+
+
+
+login:
+
+
+Warning: Undefined array key "doLogin" in /homepages/13/d448254758/htdocs/vitalconcern11/login.php on line 23
+
+
+
+
+
+Warning: Undefined array key "loginbutton" in /homepages/13/d448254758/htdocs/vitalconcern11/choose_congregation.php on line 6
+
+
+
+
+Vital Concern Prayer Website	AdminEdit || Admin CP || All Requests || Quick List || Prayer List || Post || Edit || Settings
+Announcements || Help Requests || Logout
+
+Choose Congregation
+ 
+ 	Which congregation do you wish to log into?  
+  Choose congregation	 
+Warning: Undefined variable $dd in /homepages/13/d448254758/htdocs/vitalconcern11/choose_congregation.php on line 104
+
+
+
+
+
+logout
+
+
+Warning: Undefined array key "user_id" in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 268
+
+Warning: Cannot modify header information - headers already sent by (output started at /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:268) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 282
+
+Warning: Cannot modify header information - headers already sent by (output started at /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:268) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 284
+
+Warning: Cannot modify header information - headers already sent by (output started at /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:268) in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 286
+
+
+
+quicklist
+
+Fatal error: Uncaught mysqli_sql_exception: Table 'db448362239.CongregationProfile' doesn't exist in /homepages/13/d448254758/htdocs/vitalconcern11/MyRequests/elderlist/index.php:33 Stack trace: #0 /homepages/13/d448254758/htdocs/vitalconcern11/MyRequests/elderlist/index.php(33): mysqli_query(Object(mysqli), ' SELECT users....') #1 {main} thrown in /homepages/13/d448254758/htdocs/vitalconcern11/MyRequests/elderlist/index.php on line 33
+
+
+congrequests
+
+Fatal error: Uncaught mysqli_sql_exception: Table 'db448362239.CongregationProfile' doesn't exist in /homepages/13/d448254758/htdocs/vitalconcern11/MyRequests/congrequests/index.php:33 Stack trace: #0 /homepages/13/d448254758/htdocs/vitalconcern11/MyRequests/congrequests/index.php(33): mysqli_query(Object(mysqli), ' SELECT users....') #1 {main} thrown in /homepages/13/d448254758/htdocs/vitalconcern11/MyRequests/congrequests/index.php on line 33
+
+
+
+
+SELECT  users.first_name, users.last_name, congregationprofile.congname FROM users INNER JOIN membercongregation ON users.id = membercongregation.Member INNER JOIN CongregationProfile ON membercongregation.Congregation = congregationprofile.id WHERE users.id = $userid AND membercongregation.Congregation = $congid"
+
+
+
+SELECT  users.first_name, users.last_name, congregationprofile.congname FROM users INNER JOIN membercongregation ON users.id = membercongregation.Member INNER JOIN congregationprofile ON membercongregation.Congregation = congregationprofile.id WHERE users.id = $userid AND membercongregation.Congregation = $congid";
+
+
+SELECT  users.first_name, users.last_name, congregationprofile.congname FROM users INNER JOIN membercongregation ON users.id = membercongregation.Member INNER JOIN CongregationProfile ON membercongregation.Congregation = congregationprofile.id WHERE users.id = $userid AND membercongregation.Congregation = $congid";
