@@ -1,7 +1,7 @@
 Fatal error: Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php:144 Stack trace: #0 /homepages/13/d448254758/htdocs/vitalconcern11/MyRequests/prayerrequest/form.html.php(179): filter('test') #1 {main} thrown in /homepages/13/d448254758/htdocs/vitalconcern11/dbc.php on line 144
 
 
-
+This is a random edit
 
 Deprecated: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /homepages/13/d448254758/htdocs/vitalconcern11/admin.php on line 16
 
